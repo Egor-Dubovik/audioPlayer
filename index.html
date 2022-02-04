@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>eGo Player</title>
+	<link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+	<div class="wraper">
+		<img class="background" src="./assets/img/callme.jpg" alt="background album's cover">
+		<div class="player paused">
+			<div class="amount">
+				<span class="amount__live">1</span>
+				<span>/</span>
+				<span class="amount__full">2</span>
+			</div>
+			<div class="album">
+				<div class="cover">
+					<div>
+						<img src="./assets/img/comatose.jpg" alt="album's cover" />
+					</div>
+				</div>
+			</div>
+
+			<div class="info">
+				<div class="time">
+					<span class="current-time">0:00</span>
+					<span class="progress"><span></span></span>
+				</div>
+				<h1 class="title">Drawings With Words</h1>
+				<h2 class="executor">3RDBURGLAR</h2>
+			</div>
+
+			<div class="actions">
+				<button class="shuffle">
+					<div class="arrow"></div>
+					<div class="arrow"></div>
+				</button>
+				<button class="button rw">
+					<div class="arrow"></div>
+					<div class="arrow"></div>
+				</button>
+				<button class="button play-pause">
+					<div class="arrow"></div>
+				</button>
+				<button class="button ff">
+					<div class="arrow"></div>
+					<div class="arrow"></div>
+				</button>
+				<button class="repeat"></button>
+			</div>
+
+			<!-- controls -->
+			<audio class="audio-player" prelaod src="./assets/audio/lemonade.mp3"></audio>
+		</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
